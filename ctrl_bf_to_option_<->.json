@@ -1,0 +1,52 @@
+{
+  "title": "Ctrl+b/Ctrl+f to Option+left/right arrow",
+  "rules": [
+    {
+      "description": "Map ctrl+b/ctrl+f to Option+left/right arrow",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "b",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ]
+              }
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": {
+                "mandatory": [
+                  "option"
+                ]
+              },
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
